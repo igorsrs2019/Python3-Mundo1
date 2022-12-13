@@ -1,5 +1,4 @@
-#Solicite um numero inteiro para o usuário e informe o numero sucessor e antecessor
-numero1 = int (input('Digite um numero inteiro '))
-print('O numero digitado foi {} '.format(numero1))
-print('O seu sucessor é {}'.format(numero1+1))
-print('O seu antecessor é {}'.format(numero1-1))
+#Solicite um numero para o usuário e informe o numero antecessor e sucessor
+n = int (input('Digite um numero '))
+print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(n, (n-1), (n+1)))
+

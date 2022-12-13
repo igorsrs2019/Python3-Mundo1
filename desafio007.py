@@ -1,3 +1,4 @@
+#Este programa recebe duas notas e exibe a média
 nota1 = int (input('Digite a sua primeira nota '))
 nota2 = int (input('Digite a segunda nota '))
 resultado = nota1 + nota2

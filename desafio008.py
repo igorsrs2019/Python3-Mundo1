@@ -1,6 +1,9 @@
 # Este programa recebe um valor inteiro, e exibe ele em metros, centimentros e milimetros
-valor1 = int(input('Digite um numero'))
-resultadoMetros = valor1 * 100
-resultadoMilimetros = valor1 * 1000
-
-print('O valor digitado é {} metros e {} centimetros e {} milimetros'.format(valor1, resultadoMetros, resultadoMilimetros))
+medida = float(input('Digite um numero '))
+centimetros =  medida * 100
+milimetros = medida * 1000
+hectometro = medida * 100
+print('A medida de {} comrresponde a '.format(medida))
+print('{} cm'.format(centimetros))
+print('{} mm'.format(milimetros))
+print('{:0<5} hc'.format(hectometro))

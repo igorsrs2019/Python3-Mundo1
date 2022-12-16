@@ -1,0 +1,4 @@
+#Este programa solicita um numero real e exibe a sua porcao inteira
+from math import trunc
+n = float (input('Digite um numero: ' ))
+print('O valor  dele inteiro é {} '.format(trunc(n)))

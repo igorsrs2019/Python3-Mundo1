@@ -4,5 +4,5 @@ cidade =input ('Digite uma cidade: ')
 lista = (cidade.split())
 
 resultado = (lista[0])
-print (resultado.find('Santos'))
+print ('Santos' in resultado)
 

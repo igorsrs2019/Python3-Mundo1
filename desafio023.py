@@ -1,6 +1,11 @@
 #Este program recebe um numero de 4 digitos, e mostra na tela cada digito separado.
-n = (input('Digite um numero: '))
-print ('Unidade {}'.format((n [0])))
-print ('Dezena {}'.format((n [1])))
-print ('Centena {}'.format((n [2])))
-print ('Milhar {}'.format((n [3])))
+num = int(input('Digite um numero: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('analisando o número {}'.format(num))
+print ('Unidade {}'.format(u))
+print ('Dezena {}'.format(d))
+print ('Centena {}'.format(c))
+print ('Milhar {}'.format(m))

@@ -1,4 +1,4 @@
-# este programa solicita seu nome completo e exibe ele com todas as letras maiusculas, todas em minusculas, conta quantos letras ele tem ao total e informa quantas letras tem o primeiro nome.
+# Este programa solicita seu nome completo e exibe ele com todas as letras maiusculas, todas em minusculas, conta quantos letras ele tem ao total e informa quantas letras tem o primeiro nome.
 
 nome = str (input('Digite seu nome completo: '))
 print ('Seu nome em maisculas é {} '.format(nome.upper()))   

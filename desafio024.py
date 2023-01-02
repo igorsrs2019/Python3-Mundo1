@@ -1,8 +1,5 @@
-# Este progrma recebe o nome de uma Cidade e verifica se o primeiro nome é Santos
+# Este programa recebe o nome de uma Cidade e verifica se o primeiro nome é Santo
 
-cidade =input ('Digite uma cidade: ')
-lista = (cidade.split())
-
-resultado = (lista[0])
-print ('Santos' in resultado)
+cidade = str(input('Digite uma cidade: ')).strip()
+print(cidade[:5].upper() == 'SANTO')
 

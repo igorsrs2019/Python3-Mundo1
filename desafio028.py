@@ -1,10 +1,16 @@
-# Este programa recebe um numero do usuario e verifica se o computador escolheu o mesmo.
-import random
+from random import randint
+from time import sleep
 
-npessoa = int (input ('Bem vindo ao jogo! Digite um numero entre 1 e 5: '))
-ncomputador  = random.randrange(5)
+
+ncomputador  = randint(0, 5) # Faz o computador "PENSAR"
+print ('-=-' * 20)
+print ('Vou pensar em um número entre 0 e 5. Tente adivinhar ....')
+print ('-=-' * 20)
+npessoa = int (input ('Em que número eu pensei?? '))
+print('PROCESSANDO...')
+sleep(3)
 if npessoa == ncomputador:
-    print ('Parabéns, o numero escolhido é {} '.format(ncomputador), 'Voce acertou!')
+    print ('PARABÉNS! o numero escolhido é {} '.format(ncomputador), 'Voce acertou!')
 else:
-    print ('O Computador venceu, o numero escolhido foi {} e voce digitou o {} '.format(ncomputador, npessoa, ))    
+    print ('GANHEI!  o numero escolhido foi {} e voce digitou o {} '.format(ncomputador, npessoa, ))    
 

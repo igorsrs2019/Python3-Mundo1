@@ -12,7 +12,7 @@ if n2 < n1 and n2 < n3:
 if n3 < n2 and n3 < n1:
     menor = n3    
 
-# Verificando quem o maior
+# Verificando quem é o maior
 
 maior = n1
 if n2 > n1 and n2 > n3:
